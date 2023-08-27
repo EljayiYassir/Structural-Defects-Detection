@@ -14,13 +14,26 @@
 
 ## 📃🗯 About the Projects:
 #### DataSets:
- __DATASET__: https://www.muratkoklu.com/datasets/
+ __Source__
+https://www.kaggle.com/datasets/aniruddhsharma/structural-defects-network-concrete-crack-images?datasetId=804181&sortBy=voteCount
+ __Context__
+SDNET2018 is an annotated image dataset for training, validation, and benchmarking of artificial intelligence-based crack detection algorithms for concrete. SDNET2018 contains over 56,000 images of cracked and non-cracked concrete bridge decks, walls, and pavements. The dataset includes cracks as narrow as 0.06 mm and as wide as 25 mm. The dataset also includes images with a variety of obstructions, including shadows, surface roughness, scaling, edges, holes, and background debris. SDNET2018 will be useful for the continued development of concrete crack detection algorithms based on deep learning convolutional neural networks, which are a subject of continued research in the field of structural health monitoring.
 
-__Citation Request__ :
-KOKLU, M., KURSUN, R., TASPINAR, Y. S., and CINAR, I. (2021). Classification of Date Fruits into Genetic Varieties Using Image Analysis. Mathematical Problems in Engineering, Vol.2021, Article ID: 4793293, DOI:10.1155/2021/4793293
-https://www.hindawi.com/journals/mpe/2021/4793293/
+ __Content__
+230 images of cracked and non-cracked concrete surfaces (54 bridge decks, 72 walls, 104 pavements) are captured using a 16 MP Nikon digital camera. The bridge decks were located at the Utah State University system, material, and structural health (SMASH) laboratory. The inspected walls belong to Russell/Wanlass Performance Hall building located on USU campus The pavement images were acquired from the roads and sidewalks on USU campus. Each image is segmented into 256 × 256 px sub-images. Each sub-image is labelled as 'Cracked' if there was a crack in the sub-image or 'Non-cracked' if there was not a crack.
+ 
+ __Acknowledgements__
+Utah State University Campus, Logan, Utah, USA
 
-__Abstract__: A great number of fruits are grown around the world, each of which has various types. The factors that determine the type of fruit are the external appearance features such as color, length, diameter, and shape. The external appearance of the fruits is a major determinant of the fruit type. Determining the variety of fruits by looking at their external appearance may necessitate expertise, which is time-consuming and requires great effort. The aim of this study is to classify the types of date fruit, that are, Barhee, Deglet Nour, Sukkary, Rotab Mozafati, Ruthana, Safawi, and Sagai by using three different machine learning methods. In accordance with this purpose, 898 images of seven different date fruit types were obtained via the computer vision system (CVS). Through image processing techniques, a total of 34 features, including morphological features, shape, and color, were extracted from these images. First, models were developed by using the logistic regression (LR) and artificial neural network (ANN) methods, which are among the machine learning methods. Performance results achieved with these methods are 91.0% and 92.2%, respectively. Then, with the stacking model created by combining these models, the performance result was increased to 92.8%. It has been concluded that machine learning methods can be applied successfully for the classification of date fruit types.
+ __Inspiration__
+- S. Dorafshan and M. Maguire, "Autonomous detection of concrete cracks on bridge decks and fatigue cracks on steel members," in Digital Imaging 2017, Mashantucket, CT, 2017.
+- S. Dorafshan, M. Maguire and M. Chang, "Comparing automated image-based crack detection techniques in spatial and frequency domains," in Proceedings of the 26th American Society of Nondestructive Testing Research Symposium, Jacksonville, FL, 2017.
+- S. Dorafshan, M. Maguire, N. Hoffer and C. Coopmans, "Challenges in bridge inspection using small unmanned aerial systems: Results and lessons learned," in Proceedings of the 2017 International Conference on Unmanned Aircraft Systems, Miami, FL, 2017.
+- S. Dorafshan, C. Coopmans, R. J. Thomas and M. Maguire, "Deep Learning Neural Networks for sUAS-Assisted Structural Inspections, Feasibility and Application," in ICUAS 2018, Dallas, TX, 2018.
+- S. Dorafshan, M. Maguire and X. Qi, "Automatic Surface Crack Detection in Concrete Structures Using OTSU Thresholding and Morphological Operations," Utah State University, Logan, Utah, USA, 2016.
+- S. Dorafshan, J. R. Thomas and M. Maguire, "Comparison of Deep Learning Convolutional Neural Networks and Edge Detectors for Image-Based Crack Detection in Concrete," Submitted to Journal of Construction and Building Materials, 2018.
+- S. Dorafshan, R. Thomas and M. Maguire, "Image Processing Algorithms for Vision-based Crack Detection in Concrete Structures," Submitted to Advanced Concrete Technology, 2018.
+
 #### Objective:
 In this project we try to analyse the dataset provided above, and we try to make some classification task for the type of each date fruit depend on the features provided in the data.
 
