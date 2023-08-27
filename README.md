@@ -15,7 +15,9 @@
 ## 📃🗯 About the Projects:
 #### DataSets:
  __Source__
-https://www.kaggle.com/datasets/aniruddhsharma/structural-defects-network-concrete-crack-images?datasetId=804181&sortBy=voteCount
+ [Structural Defects Detection Dataset](https://www.kaggle.com/datasets/aniruddhsharma/structural-defects-network-concrete-crack-images?datasetId=804181&sortBy=voteCount)
+
+
  __Context__
 SDNET2018 is an annotated image dataset for training, validation, and benchmarking of artificial intelligence-based crack detection algorithms for concrete. SDNET2018 contains over 56,000 images of cracked and non-cracked concrete bridge decks, walls, and pavements. The dataset includes cracks as narrow as 0.06 mm and as wide as 25 mm. The dataset also includes images with a variety of obstructions, including shadows, surface roughness, scaling, edges, holes, and background debris. SDNET2018 will be useful for the continued development of concrete crack detection algorithms based on deep learning convolutional neural networks, which are a subject of continued research in the field of structural health monitoring.
 
